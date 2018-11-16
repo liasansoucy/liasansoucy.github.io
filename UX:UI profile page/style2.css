@@ -1,0 +1,43 @@
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #fff1f3;
+    color: #ff8d9c;
+}
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 100px;
+}
+
+.navbar {
+    background-color: #FFf1f3;
+    grid-column: 1 / -1;
+    display: flex;
+    max-width: 100vw;
+    min-width: 100vw;
+    z-index: 100;
+    
+}
+.navbar a{
+    color: #4C3E40;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4em;
+    font-weight: 200;
+    margin-left: 1.5em;
+    margin-right: 1em;
+}
+.navbar a:hover{
+    color: #997d81;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4em;
+    font-weight: 200;
+    margin-left: 1.5em;
+    margin-right: 1em;
+    
+}
+li {
+    list-style-type: none;
+    text-decoration: none;
+}
